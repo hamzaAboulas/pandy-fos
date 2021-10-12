@@ -78,6 +78,7 @@
  					$users = $conn->query("SELECT * FROM user_info order by name asc");
  					$i = 1;
  					while($row= $users->fetch_assoc()):
+						echo var_dump($row);
 				 ?>
 				 <tr>
 				 	<td>
