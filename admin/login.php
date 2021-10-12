@@ -108,6 +108,7 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 </body>
 <script>
 	$('#login-form').submit(function(e){
+		console.log("we are here")
 		e.preventDefault()
 		$('#login-form button[type="button"]').attr('disabled',true).html('Logging in...');
 		if($(this).find('.alert-danger').length > 0 )
