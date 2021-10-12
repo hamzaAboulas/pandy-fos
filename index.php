@@ -96,7 +96,7 @@
     </div>
   </div>
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2021 - Online Food Ordering System <a href="#">Pandy</a></div></div>
+            <div class="container"><div class="small text-center text-muted">Copyright © 2021 - <a href="#">Pandy</a></div></div>
         </footer>
         
        <?php include('footer.php') ?>
